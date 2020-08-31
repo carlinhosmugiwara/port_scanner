@@ -2,7 +2,7 @@ import socket # library to create and manipulate sockets
 from queue  import Queue # library to create and manipulate queue data structure
 import threading # library to easily create threads and multithreads
 
-the_target = '127.8.8.1'
+the_target = '127.8.8.1' # I used the ip of every local machine here, but you can run it in every ip that you're authorized to do so
 open_ports = []
 queue = Queue()
 
